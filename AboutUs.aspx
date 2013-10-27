@@ -6,20 +6,20 @@
 <head runat="server">
     <title>AboutUs</title>
 </head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 <body>
     <form id="form1" runat="server">
 
     <div>
-                   Wicked Easy Recipes
-        <br />
-        Using 5 Ingredients or Less!
-        <br /><br />
-        <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | Contact
+                   <h1>Wicked Easy Recipes </h1>
+        <h2> Using 5 Ingredients or Less! </h2>
+        <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
     <br />
     </div>
     <div>
 <br /><br />
 
+        <div id="firstparagraph">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
 aliquet, tellus sit amet feugiat euismod, velit lectus
 pellentesque nisi, non eleifend quam ipsum at arcu. Sed
@@ -29,9 +29,10 @@ Nullam laoreet volutpat dolor in convallis. Ut ornare mollis odio
 at luctus. Morbi nec blandit justo. Donec porta sagittis euismod.
 Cras quis congue dui. Nunc at lorem ac diam vestibulum
 placerat quis eu nibh. In hac habitasse platea dictumst.
+            </div>
      
         <br /><br />
-
+        <div id="secondparagraph">
 Etiam vel lorem nec justo suscipit ornare. Sed risus urna,
 gravida nec convallis eu, viverra nec sem. Sed eget mauris
 magna. Sed vulputate tortor in tempus fringilla. Donec in
@@ -41,10 +42,11 @@ et malesuada fames ac ante ipsum primis in faucibus. Ut dui
 quam, imperdiet ornare est non, accumsan vulputate justo.
 Vestibulum sit amet erat a nunc consectetur pellentesque.
 Aenean imperdiet tellus nec augue eleifend condimentum.
+            </div>
     </div>
     </form>
 
                <br /><br />
-         © 2013. 6K:183 Software Design & Development
+      <div class="copyright">© 2013. 6K:183 Software Design & Development</div>
 </body>
 </html>

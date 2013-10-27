@@ -6,14 +6,13 @@
 <head runat="server">
     <title>Recipe</title>
 </head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 <body>
     <form id="form1" runat="server">
     <div>
-           Wicked Easy Recipes
-        <br />
-        Using 5 Ingredients or Less!
-        <br /><br />
-         <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | Contact
+          <h1>Wicked Easy Recipes</h1> 
+        <h2>Using 5 Ingredients or Less</h2>
+        <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
     <br />
         <br />
     </div>
@@ -60,7 +59,7 @@
             </Fields>
         </asp:DetailsView>
         <br /><br />
-         © 2013. 6K:183 Software Design & Development
+         <div class="copyright">© 2013. 6K:183 Software Design & Development</div>
     </form>
 </body>
 </html>

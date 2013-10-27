@@ -1,0 +1,16 @@
+body { background: #D2B48C; font-family:courier new; font-size: 10pt; text-align: center; margitn-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto;}
+h1{ color: #FFFFFF; text-align: center; font-size: 36pt; font-weight: bold; margin-top:500 px; }
+h2{ color: #F08080; text-align: center; font-size: 14pt; font-weight: bold; margin-top:auto;}
+a {font-weight:bold; text-align:center;font-size:12pt;}
+a:link {color:#696969;}
+a:visited {color:#F08080;}
+a:hover {color:#F08080; text-decoration: underline;}
+#firstparagraph {color:#696969; text-align: center; font-weight:bold; font-size: 14pt; margin-left: 300px; margin-right: 300px;}
+#secondparagraph {color:#696969; text-align: center; font-weight:bold; font-size: 14pt; margin-left: 300px; margin-right: 300px;}
+#email{color: #696969; font-weight:bold; font-size: 14pt;}
+#message{color: #696969; font-weight:bold; font-size: 14pt;}
+#GridView1{width:200px; margin-top: auto; margin-left:auto; margin-right:auto; }
+#DetailsView1{text-color: #FFFFFF; width:200px; margin-left:650px; margin-right:650px;}
+
+
+

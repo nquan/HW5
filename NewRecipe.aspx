@@ -6,14 +6,13 @@
 <head runat="server">
     <title>New Recipe</title>
 </head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 <body>
     <form id="form1" runat="server">
     <div>
-                   Wicked Easy Recipes
-        <br />
-        Using 5 Ingredients or Less!
-        <br /><br />
-         <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | Contact
+                   <h1>Wicked Easy Recipes</h1>
+        <h2>Using 5 Ingredients or Less!</h2>
+         <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
     <br />
         <br />
     </div>
@@ -45,7 +44,8 @@
                 <asp:Parameter Name="Id" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Id" DataSourceID="RecipeDataSource2" Height="50px" style="margin-right: 1px" Width="343px" DefaultMode="Insert">
+        <asp:DetailsView ID="DetailsView1"
+   runat ="server" AutoGenerateRows="False" DataKeyNames="Id" DataSourceID="RecipeDataSource2" Height="50px" style="margin-right: 1px" Width="343px" DefaultMode="Insert">
             <Fields>
                 <asp:BoundField DataField="Recipe Name" HeaderText="Recipe Name" SortExpression="Recipe Name" />
                 <asp:BoundField DataField="Submitted By" HeaderText="Submitted By" SortExpression="Submitted By" />
@@ -60,7 +60,7 @@
             </Fields>
         </asp:DetailsView>
            <br /><br />
-         © 2013. 6K:183 Software Design & Development
+         <div class="copyright">© 2013. 6K:183 Software Design & Development</div>
     </form>
 </body>
 </html>

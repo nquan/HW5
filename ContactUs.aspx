@@ -6,19 +6,17 @@
 <head runat="server">
     <title></title>
 </head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 <body>
     <form id="form1" runat="server">
     <div>
-                   Wicked Easy Recipes
-        <br />
-        Using 5 Ingredients or Less!<br />
-                   <br />
-&nbsp;<br /><br />
+                   <h1>Wicked Easy Recipes</h1>
+        <h2> Usign 5 Ingredients or Less!</h2>
         <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
     <br />
         <br /><br />
         <br /><br />
-        Your Email Address:
+        <div id="email">Your Email Address:</div>
         <br />
 
                    <br />
@@ -28,7 +26,7 @@
                    <br />
                    <br />
                    <br />
-                   Your Message<br />
+                   <div id="message">Your Message</div><br />
                    <br />
                    <asp:TextBox ID="TextBox2" runat="server" Height="63px" Width="398px"></asp:TextBox>
                    <br />
@@ -42,6 +40,6 @@
     </form>
 
          <br /><br />
-         © 2013. 6K:183 Software Design & Development
+        <div class="copyright">© 2013. 6K:183 Software Design & Development</div>
 </body>
 </html>
