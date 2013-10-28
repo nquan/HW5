@@ -13,7 +13,7 @@
     <div>
                    <h1>Wicked Easy Recipes </h1>
         <h2> Using 5 Ingredients or Less! </h2>
-        <a href ="Home.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
+        <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
     <br />
     </div>
     <div>
