@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title>AboutUs</title>
 </head>
     <link rel="stylesheet" type="text/css" href="style.css"> 
@@ -13,7 +13,7 @@
     <div>
                    <h1>Wicked Easy Recipes </h1>
         <h2> Using 5 Ingredients or Less! </h2>
-        <a href ="Default.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
+        <a href ="Home.aspx">Home</a> | <a href="NewRecipe.aspx">New Recipe</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact</a>
     <br />
     </div>
     <div>
@@ -50,3 +50,4 @@ Aenean imperdiet tellus nec augue eleifend condimentum.
       <div class="copyright">© 2013. 6K:183 Software Design & Development</div>
 </body>
 </html>
+

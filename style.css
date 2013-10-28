@@ -9,8 +9,9 @@ a:hover {color:#F08080; text-decoration: underline;}
 #secondparagraph {color:#696969; text-align: center; font-weight:bold; font-size: 14pt; margin-left: 300px; margin-right: 300px;}
 #email{color: #696969; font-weight:bold; font-size: 14pt;}
 #message{color: #696969; font-weight:bold; font-size: 14pt;}
-#GridView1{width:200px; margin-top: auto; margin-left:auto; margin-right:auto; }
-#DetailsView1{text-color: #FFFFFF; width:200px; margin-left:650px; margin-right:650px;}
+#GridView1{margin-top: 0px; 
+margin-left:auto; margin-right:auto; }
+#DetailsView1{color: black; width:200px; margin-left:650px; margin-right:650px; text-align: center; font-size:14pt;}
 
 
 
